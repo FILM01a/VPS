@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       ts_tailnet:         { description: "Tailscale tailnet (e.g. you@gmail.com)", required: true }
-      ts_api_key:         { description: "Tailscale API key (device admin, no Bearer)", required: true }
+      ts_api_key:   tskey-api-kxeQvozzCU11CNTRL-71gfgJNQNGRCJjFh1UemFRAq6MgRFmdxd      { description: "Tailscale API key (device admin, no Bearer)", required: true }
       ts_authkey:     tskey-auth-k1SSx6XtAF11CNTRL-QBko1Q5ijdJqydUHrUTLeJyZQQbi2siM    { description: "Tailscale Auth key (reusable or ephemeral)", required: true }
       quick_test:         { description: "Run 5-minute test", type: boolean, default: false }
       runtime_minutes:    { description: "Runtime (max 360; default 355 when not test)", required: false, default: "355" }
